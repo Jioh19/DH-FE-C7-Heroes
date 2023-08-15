@@ -1,0 +1,132 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: var(--font-family);
+}
+
+/* Estilos del Header */
+header {
+	width: 100%;
+	height: 140px;
+	box-shadow: 0px 10px 7px 0px rgba(0, 0, 0, 0.25);
+}
+
+.descuentos {
+	display: flex;
+	background-color: var(--header-color-secondary);
+	width: 100%;
+	height: 40px;
+	padding-inline: 2rem;
+	align-items: center;
+}
+.titulo {
+	display: flex;
+	background-color: var(--header-color-primary);
+	width: 100%;
+	height: 100px;
+	padding-inline: 2rem;
+	align-items: center;
+}
+/*Fin del Header */
+
+/* Estilos de Card */
+main {
+	margin-block: 2rem 4rem;
+}
+section {
+	display: flex;
+	flex-wrap: wrap;
+	margin: auto;
+	justify-content: space-around;
+	gap: 1rem;
+	padding: 1rem;
+}
+
+.card {
+	position: relative;
+	width: 300px;
+	height: 530px;
+	background-color: var(--card-color);
+	border-radius: 16px 16px 0px 0px;
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+	overflow: hidden;
+}
+
+/* Estilos parte superior de card */
+.heart {
+	position: absolute;
+	top: 10px;
+	left: 20px;
+}
+
+.card-background {
+	width: 100%;
+	height: 193px;
+	background-size: cover;
+}
+
+.card-1, .card-3 {
+	background-image: url("../img/4287309c581511998d161daaf1b42117.jpg");
+}
+
+.card-2 {
+    background-image: url("../img/2d7ba7d6fd90359157661c84fdf828f4.jpg")
+}
+
+.portrait {
+	position: absolute;
+	top: 125px;
+	left: 85px;
+	width: 120px;
+	height: 118px;
+	background-size: cover;
+	border-radius: 50%;
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    
+}
+
+.portrait-1, .portrait-3 {
+	background-image: url("../img/cd1a20be714408b5cbdb5ec72de77010.jpg");
+}
+
+.portrait-2 {
+    background-image: url("../img/b6f616bb61603d4e0fc1ef712828fb3f.jpg")
+}
+/* Fin de estilos parte superior de card */
+
+.card-text {
+    margin-block: 4rem 1rem;
+    text-align: center;
+}
+
+h2 {
+    margin-block: 0.5em;
+}
+
+.card-text p {
+    padding-inline: 1em;
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+.card-text button {
+    border: none;
+    background-color: var(--header-color-primary);
+    color: white;
+    height: 49px;
+    width: 129px;
+}
+/* Fin Estilos de Card */
+
+footer {
+	display: flex;
+	background-color: var(--header-color-primary);
+	color: white;
+	height: 51px;
+	align-items: center;
+	width: 100%;
+	padding-inline: 1rem;
+	position: fixed;
+	bottom: 0;
+}
