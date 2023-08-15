@@ -66,28 +66,16 @@ section {
 	background-size: cover;
 }
 
-.card-1, .card-3 {
-	background-image: url("../img/4287309c581511998d161daaf1b42117.jpg");
-}
-
-.card-2 {
-    background-image: url("../img/2d7ba7d6fd90359157661c84fdf828f4.jpg")
-}
-
 .portrait {
 	position: absolute;
 	top: 125px;
-	left: 85px;
+	left: 30%;
 	width: 120px;
 	height: 118px;
 	background-size: cover;
 	border-radius: 50%;
 	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     
-}
-
-.portrait-1, .portrait-3 {
-	background-image: url("../img/cd1a20be714408b5cbdb5ec72de77010.jpg");
 }
 
 .portrait-2 {
